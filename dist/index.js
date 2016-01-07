@@ -3,6 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.assign = undefined;
 exports.assignToEmpty = assignToEmpty;
 
 var _objectAssign = require('object-assign');
@@ -19,6 +20,6 @@ function assignToEmpty() {
   return _objectAssign2.default.apply(undefined, [{}].concat(args));
 }
 
-var assign = _objectAssign2.default;
+var assign = exports.assign = _objectAssign2.default;
 
 exports.default = assignToEmpty;
