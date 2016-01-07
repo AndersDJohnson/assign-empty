@@ -4,7 +4,7 @@ export function assignToEmpty (...args) {
   return objectAssign({}, ...args)
 }
 
-const assign = objectAssign
+export const assign = objectAssign
 
 export default assignToEmpty
 
