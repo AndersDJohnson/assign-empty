@@ -21,4 +21,4 @@ function assignToEmpty() {
 
 var assign = _objectAssign2.default;
 
-exports.default = assign;
+exports.default = assignToEmpty;
