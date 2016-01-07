@@ -6,4 +6,5 @@ export function assignToEmpty (...args) {
 
 const assign = objectAssign
 
-export default assign
+export default assignToEmpty
+
