@@ -1,6 +1,6 @@
 {
   "name": "assign-empty",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Immutable Object.assign.",
   "repository": "AndersDJohnson/assign-empty",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
     "test": "eslint src",
     "build": "babel src/index.js -o dist/index.js"
   },
-  "author": "Anders D. Johnson (https://github.com/AndersDJohnson)",
+  "author": "Anders D. Johnson (https://andersdjohnson.com)",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.3.17",
